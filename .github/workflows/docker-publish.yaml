@@ -1,8 +1,8 @@
 name: Create and publish Container Image
 
 on:
-  push:
-    branches: ['master']
+  registry_package:
+    types: [published]
 
 env:
   REGISTRY: ghcr.io
