@@ -28,7 +28,7 @@ You can refer to the examples, and update the repository link accordingly
 
 ```
 # Apply via Manifest
-kubectl apply -f examples/newt.yaml
+kubectl apply -f examples/deployment.yaml
 
 # Run imperative command
 kubectl run newt --image=reponame/newt -n default
