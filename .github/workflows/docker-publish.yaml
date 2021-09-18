@@ -1,7 +1,7 @@
 name: Create and publish Container Image
 
 on:
-  registry_package:
+  release:
     types: [published]
 
 env:
